@@ -125,11 +125,9 @@ Before you begin, ensure you have met the following requirements:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/verification-layer-tester.git
+git clone https://github.com/layer-edge/verification-layer-tester.git
 cd verification-layer-tester
 ```
-
-**Note**: Replace `yourusername` with your GitHub username if necessary.
 
 ### Install Dependencies
 
@@ -192,7 +190,7 @@ Contributions are welcome! Please follow these steps:
 2. **Clone Your Fork**:
 
    ```bash
-   git clone https://github.com/yourusername/verification-layer-tester.git
+   git clone https://github.com/layer-edge/verification-layer-tester.git
    ```
 
 3. **Create a Feature Branch**:
