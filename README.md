@@ -2,12 +2,21 @@
 
 ## Sample Application for Testing the Verification Layer
 
+**🚀 Quick Start with Our Demo Video!**
+
+[![Demo Video](https://miro.medium.com/v2/resize:fit:4800/format:webp/0*tUKGFvM_5ag2kt93)](https://youtu.be/k5L0-gZzzkc?si=wMQ-tWUZdpUCWrfu)
+
+*Click on the image above to watch our step-by-step demo video.*
+
+---
+
 This repository contains a Go program that sends data over a ZeroMQ socket to test a verification layer. The program (`sample.go`) is designed to send Zero-Knowledge (ZK) proofs or any data you specify to a specified endpoint. Shell scripts are included to streamline the building and running processes.
 
 ---
 
 ## Table of Contents
 
+- [Demo Video](#demo-video)
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -22,6 +31,16 @@ This repository contains a Go program that sends data over a ZeroMQ socket to te
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [License](#license)
+
+---
+
+## Demo Video
+
+For a quick and comprehensive walkthrough, watch our **YouTube demo video**:
+
+[![Demo Video](https://miro.medium.com/v2/resize:fit:4800/format:webp/0*tUKGFvM_5ag2kt93)](https://youtu.be/k5L0-gZzzkc?si=wMQ-tWUZdpUCWrfu)
+
+*Click on the image above or [this link](https://youtu.be/k5L0-gZzzkc?si=wMQ-tWUZdpUCWrfu) to view the demo.*
 
 ---
 
@@ -44,7 +63,6 @@ Before you begin, ensure you have met the following requirements:
 - **ZeroMQ and CZMQ Libraries**: Install ZeroMQ, CZMQ, and `pkg-config` on your system.
 
   ### macOS (Using Homebrew)
-
 
   #### Install Homebrew
 
