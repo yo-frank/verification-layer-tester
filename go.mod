@@ -1,4 +1,4 @@
-module github.com/layer-edge/dummy-go-project
+module github.com/layer-edge/verification-layer-tester
 
 go 1.23
 
