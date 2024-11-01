@@ -19,6 +19,7 @@ This repository contains a Go program that sends data over a ZeroMQ socket to te
     - [Using a Proof File](#using-a-proof-file)
     - [Manual Input](#manual-input)
     - [Using the Default Proof](#using-the-default-proof)
+- [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -180,6 +181,96 @@ When prompted, paste your proof data and press Enter.
 If you run `./run.sh` and press Enter without typing anything when prompted, the program will use a default proof value defined in `sample.go`.
 
 ---
+
+## Troubleshooting
+
+### Common Issues
+
+#### Error: `pkg-config`: executable file not found in $PATH
+
+**Cause**: `pkg-config` is not installed or not in your system's `PATH`.
+
+**Solution**:
+
+- **macOS**:
+
+  ```bash
+  brew install pkg-config
+  ```
+
+- **Ubuntu/Debian**:
+
+  ```bash
+  sudo apt-get install -y pkg-config
+  ```
+
+- **CentOS/RHEL**:
+
+  ```bash
+  sudo yum install -y pkgconfig
+  ```
+
+- **Windows**:
+
+  - Install MSYS2 and use `pacman` to install `pkg-config`.
+
+    ```bash
+    pacman -S mingw-w64-x86_64-pkg-config
+    ```
+
+  - Ensure `C:\msys64\mingw64\bin` is added to your system's `PATH`.
+
+#### Cannot Connect to Endpoint
+
+- **Solution**:
+
+  - Verify that the endpoint in `sample.go` is correct and accessible.
+  - Replace `tcp://34.71.52.251:40000` with your own endpoint if necessary.
+
+#### Missing Dependencies
+
+- **Solution**:
+
+  - Ensure all Go packages and system libraries are installed.
+
+    ```bash
+    go get gopkg.in/zeromq/goczmq.v4
+    ```
+
+#### Permission Denied
+
+- **Solution**:
+
+  - Ensure the scripts are executable:
+
+    ```bash
+    chmod +x build.sh run.sh
+    ```
+
+#### ZeroMQ Issues
+
+- **Solution**:
+
+  - Ensure that ZeroMQ and CZMQ are properly installed on your system.
+  - Verify installation:
+
+    ```bash
+    pkg-config --modversion libzmq
+    pkg-config --modversion libczmq
+    ```
+
+### Need Help?
+
+If you're still experiencing issues, please provide:
+
+- Error messages or logs.
+- Details about your operating system and environment.
+- Steps you've already tried.
+
+Feel free to open an issue on the repository or contact the maintainers.
+
+---
+
 
 ## Contributing
 
