@@ -4,7 +4,7 @@
 
 **🚀 Quick Start with Our Demo Video!**
 
-[![Demo Video](https://miro.medium.com/v2/resize:fit:4800/format:webp/0*tUKGFvM_5ag2kt93)](https://youtu.be/k5L0-gZzzkc?si=wMQ-tWUZdpUCWrfu)
+[![Demo Video](https://img.youtube.com/vi/k5L0-gZzzkc/0.jpg)](https://www.youtube.com/watch?v=k5L0-gZzzkc)
 
 *Click on the image above to watch our step-by-step demo video.*
 
@@ -38,7 +38,7 @@ This repository contains a Go program that sends data over a ZeroMQ socket to te
 
 For a quick and comprehensive walkthrough, watch our **YouTube demo video**:
 
-[![Demo Video](https://miro.medium.com/v2/resize:fit:4800/format:webp/0*tUKGFvM_5ag2kt93)](https://youtu.be/k5L0-gZzzkc?si=wMQ-tWUZdpUCWrfu)
+[![Demo Video](https://img.youtube.com/vi/k5L0-gZzzkc/0.jpg)](https://www.youtube.com/watch?v=k5L0-gZzzkc)
 
 *Click on the image above or [this link](https://youtu.be/k5L0-gZzzkc?si=wMQ-tWUZdpUCWrfu) to view the demo.*
 
