@@ -45,7 +45,33 @@ Before you begin, ensure you have met the following requirements:
 
   ### macOS (Using Homebrew)
 
-  Open your terminal and run the following commands:
+
+  #### Install Homebrew
+
+  Homebrew is a package manager for macOS that simplifies the installation of software. If you don't have Homebrew installed, follow these steps:
+
+  1. **Open Terminal**: You can find Terminal in **Applications > Utilities**.
+
+  2. **Install Homebrew**: Run the following command in Terminal:
+
+     ```bash
+     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+     ```
+
+     - **Note**: This command downloads and runs the Homebrew installation script from the official repository.
+     - **Follow Prompts**: You may be prompted to enter your password and confirm the installation. Follow the on-screen instructions.
+
+  3. **Verify Installation**:
+
+     ```bash
+     brew --version
+     ```
+
+     This should display the version of Homebrew installed.
+
+  #### Install Dependencies
+
+  With Homebrew installed, proceed to install `pkg-config`, ZeroMQ, and CZMQ:
 
   ```bash
   brew update
