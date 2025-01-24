@@ -334,7 +334,7 @@ Contributions are welcome! Please follow these steps:
    git checkout -b feature/your-feature-name
    ```
 
-4. **Commit Your Changes**:
+4. ** 🔌 Commit Your Changes**:
 
    ```bash
    git commit -am 'Add some feature'
